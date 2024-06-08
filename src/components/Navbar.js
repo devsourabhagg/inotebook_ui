@@ -19,11 +19,6 @@ function Navbar() {
         <li className="nav-item">
           <Link className="nav-link" to="/about">About</Link>
         </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-        </li>
       </ul>
       <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
