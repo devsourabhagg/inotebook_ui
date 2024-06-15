@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Home from './components/Home';
 import NoteState from './context/notes/NoteState';
+import { Alerts } from './components/Alerts';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <NoteState>
     <Router>
      <Navbar/>
+     <Alerts message="Cool"/>
       <Routes>
             {/* here we are using the key parameter for forcibyly remounitng the componennt */}
             <Route path="/" element={<About/>} />
