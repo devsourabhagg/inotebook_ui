@@ -4,9 +4,10 @@ import { AddNote } from './AddNote';
 
 export const Home = (props) =>{
   return (
-    <div>
-      <Notes></Notes>      
-    </div>
+    <div className='container'>
+      <Notes/>
+      </div>
+  
   )
 }
 
